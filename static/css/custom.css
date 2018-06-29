@@ -1,8 +1,8 @@
 .fh5co-project-item > img {
-    height: 50px;
+    height: 30px;
     text-align: center;
     margin: 0 auto;
-    padding: 5px;
+    margin-top: 15px;
 }
 
 .fh5co-project-item {

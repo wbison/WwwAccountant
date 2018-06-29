@@ -1,7 +1,7 @@
 # Page settings
-baseurl = "localhost:1313"
-title = "Elate theme"
-languageCode = "en-us"
+baseurl = "accountant.nappkin.nl"
+title = "Nappkin"
+languageCode = "nl-NL"
 theme = "hugo-elate-theme"
 
 [params]
@@ -11,12 +11,12 @@ theme = "hugo-elate-theme"
   # Meta
   author = ""
   description = ""
-  email = ""
+  email = "info@nappkin.nl"
   # Navigation
   [params.navigation]
-    brand = "Elate"
+    brand = "Nappkin"
     home = "Home"
-    work = "Work"
+    work = "Koppelingen"
     testimonials = "Testimonials"
     services = "Services"
     about = "About"
@@ -39,7 +39,7 @@ theme = "hugo-elate-theme"
   
   # Hero section
   [params.hero]
-    title = "Do something you love."
+    title = "Complete point-of -sale oplossing voor de horeca"
     subtitle = 'Another free HTML5 bootstrap template by <a href="http://freehtml5.co/" target="_blank" title="Free HTML5 Bootstrap Templates">FREEHTML5.co</a> released under <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons 3.0</a><br> ported for Hugo by <a href="http://saey55.gitlab.io/pietercv" target="_blank">Pieter Saey</a>'
  
   # Intro section
@@ -71,7 +71,7 @@ theme = "hugo-elate-theme"
     img = "img_10.jpg"
 
   [params.intro.video]
-    enable = true
+    enable = false
     title = "Watch the video"
     icon = "icon-play2"
     url = "https://vimeo.com/channels/staffpicks/93951774"
@@ -80,9 +80,9 @@ theme = "hugo-elate-theme"
   # Work section
   [params.work]
     enable = true
-    title = "Work"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
+    title = "Koppelingen"
+    description = "Koppeling met alle bekende boekhoudpakketten"
+    footertext = ''
 
     [[params.work.row]]
       img = "exact_logo_300.png"
@@ -98,20 +98,20 @@ theme = "hugo-elate-theme"
 
     [[params.work.row]]
       img = "snelstart_logo.png"
-      alt = "Image3"
+      alt = "Snelstart"
       title = "Snelstart"
       subtitle = ""
 
     [[params.work.row]]
       img = "yuki_logo_300.png"
-      alt = "Image4"
+      alt = "Yuki"
       title = "Yuki"
       subtitle = ""
 
     [[params.work.row]]
       img = "accountview_logo_300.png"
-      alt = "Image5"
-      title = "Accountview"
+      alt = "Visma AccountView"
+      title = "AccountView"
       subtitle = ""
 
     [[params.work.row]]
@@ -134,7 +134,7 @@ theme = "hugo-elate-theme"
 
   # Testimonials section
   [params.testimonials]
-    enable = true
+    enable = false
     title = "Testimonials"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
@@ -162,31 +162,32 @@ theme = "hugo-elate-theme"
   # Services section
   [params.services]
     enable = true
-    title = "Services"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Kenmerken"
+    description = "Nappkin is etc"
 
     [[params.services.item]]
-      title = "Brand &amp; Strategy"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      title = "Saas"
+      description = "Nappkin is een Saas point-of-sale oplossing voor iPad of iPhone. Een abonnement met iPad kost €9 per maand."
       icon = "icon-anchor"
 
     [[params.services.item]]
-      title = "Web &amp; Interface"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      title = "Kassa tellen"
+      description = "Vastlegging kasopnames met van alles en nog wat n nog wat mer tekst voorde linebreak"
       icon = "icon-layers2"
+
     [[params.services.item]]
-      title = "Photo &amp; Video"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-video2"
+      title = "Pin"
+      description = "Pinbetalingen kunnen tegen voordelige tarieven verwerkt worden met Paqar of Sumup"
+      icon = "icon-credit-card"
 
       [[params.services.item]]
-      title = "CMS &amp; eCommerce"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"      
-      icon = "icon-monitor"
+      title = "Reserveringen"
+      description = "Nappkin bevat een volledige reserveringsmodule met webiste widget, sms reminders etc"      
+      icon = "icon-calendar"
 
   # About section
   [params.about]
-    enable = true
+    enable = false
     title = "About"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
@@ -233,62 +234,62 @@ theme = "hugo-elate-theme"
     background = "full_image_1.jpg"
 
     [[params.counters.item]]
-      description = "Finished projects"
-      icon = "icon-briefcase"
-      from = 0
-      to = 89
-      interval = 50
-      speed = 5000
-
-    [[params.counters.item]]
-      description = "Lines of code"
-      icon = "icon-code"
-      from = 0
-      to = 2343409
-      interval = 50
-      speed = 5000
-
-    [[params.counters.item]]
-      description = "Cups of coffee"
+      description = "Bestelregels"
       icon = "icon-cup"
       from = 0
-      to = 1302
+      to = 9734595
+      interval = 200
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Rekeningen"
+      icon = "icon-file"
+      from = 0
+      to = 2338984
+      interval = 100
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Reserveringen"
+      icon = "icon-calendar"
+      from = 0
+      to = 167423
       interval = 50
       speed = 5000
 
     [[params.counters.item]]
-      description = "Happy clients"
+      description = "Gasten"
       icon = "icon-people"
       from = 0
-      to = 52
+      to = 1117290
       interval = 50
       speed = 5000
 
   # Contact section
   [params.contact]
     enable = true
-    map = true
+    map = false
     form = true
-    title = "Get in touch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Contact"
+    description = ""
     
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
-        ["icon-phone", "(123) 465-6789"],
-        ["icon-envelope", "info@freehtml5.co"],
-        ["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
+        ["icon-home", "Warmoesstraat 111, 1012 JA Amsterdam"],
+        ["icon-phone", "020-4287777"],
+        ["icon-envelope", "info@nappkin.nl"],
+        ["icon-globe", '<a href="http://nappkin.nl/" target="_blank">nappkin.nl</a>']
       ]
 
-    name = "Name"
+    name = "Naam"
     email = "Email"
-    phone = "Phone"
-    message = "Message"
-    button = "Send message"
+    phone = "Telefoon"
+    message = "Bericht"
+    button = "Verstuur"
 
   # Footer section
   [params.footer]
-    enable = true
+    enable = false
     copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>'
     links = [
         ["icon-twitter", "#twitter"],

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Elate theme</title>
-    <link>localhost:1313/</link>
-    <description>Recent content on Elate theme</description>
+    <title>Nappkin</title>
+    <link>accountant.nappkin.nl/</link>
+    <description>Recent content on Nappkin</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>nl-NL</language>
     
-	<atom:link href="localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="accountant.nappkin.nl/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
