@@ -1,0 +1,23 @@
+{
+  "name": "accountant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "s3": "s3-deploy './public/**' --cwd './public/' --region eu-west-1 --bucket accountant.nappkin.nl",
+    "invalidate": "aws cloudfront create-invalidation --distribution-id E3W1DNJ4DWK5G8  --paths /index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wbison/WwwAccountant.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wbison/WwwAccountant/issues"
+  },
+  "homepage": "https://github.com/wbison/WwwAccountant#readme",
+  "dependencies": {
+    "s3-deploy": "^1.1.0"
+  }
+}

@@ -1,0 +1,10 @@
+.fh5co-project-item > img {
+    height: 50px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.fh5co-project-item {
+    text-align: center;
+}

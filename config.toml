@@ -6,7 +6,7 @@ theme = "hugo-elate-theme"
 
 [params]
   
-  custom_css = ["css/custom1.css", "css/custom2.css"]
+  custom_css = ["css/custom.css"]
 
   # Meta
   author = ""
@@ -85,40 +85,52 @@ theme = "hugo-elate-theme"
     footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
 
     [[params.work.row]]
-      img = "work_1.jpg"
-      alt = "Image2"
-      title = "Project 1"
-      subtitle = "Branding"
+      img = "exact_logo_300.png"
+      alt = "Exact Online"
+      title = "Exact"
+      subtitle = ""
 
     [[params.work.row]]
-      img = "work_2.jpg"
-      alt = "Image2"
-      title = "Project 2"
-      subtitle = "Design"
+      img = "twinfield_logo.png"
+      alt = "Twinfield"
+      title = "Twinfield"
+      subtitle = ""
 
     [[params.work.row]]
-      img = "work_3.jpg"
+      img = "snelstart_logo.png"
       alt = "Image3"
-      title = "Project 3"
-      subtitle = "Design"
+      title = "Snelstart"
+      subtitle = ""
 
     [[params.work.row]]
-      img = "work_4.jpg"
+      img = "yuki_logo_300.png"
       alt = "Image4"
-      title = "Project 4"
-      subtitle = "Design"
+      title = "Yuki"
+      subtitle = ""
 
     [[params.work.row]]
-      img = "work_5.jpg"
+      img = "accountview_logo_300.png"
       alt = "Image5"
-      title = "Project 5"
-      subtitle = "Design"
+      title = "Accountview"
+      subtitle = ""
 
     [[params.work.row]]
-      img = "work_6.jpg"
-      alt = "Image6"
-      title = "Project 6"
-      subtitle = "Design"
+      img = "muis_logo.png"
+      alt = "iMuis"
+      title = "Muis"
+      subtitle = ""
+
+    [[params.work.row]]
+      img = "multivers_logo.png"
+      alt = "Unit4 Multivers"
+      title = "Multivers"
+      subtitle = ""
+
+    [[params.work.row]]
+      img = "minox_logo.svg"
+      alt = "Minox"
+      title = "Minox"
+      subtitle = ""
 
   # Testimonials section
   [params.testimonials]
