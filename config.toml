@@ -48,27 +48,27 @@ theme = "hugo-elate-theme"
 
   [[params.intro.item]]
     title = "Plan"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "Complete Saas point-of-sale oplossing voor iPad of iPhone, vanaf €9 per maand."
     url = "#"
-    button = "Get In Touch"
+    button = ""
     icon = "icon-bulb"
     img = "img_7.jpg"
 
   [[params.intro.item]]
-    title = "Develop"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Click Me"
-    icon = "icon-wrench"
-    img = "img_8.jpg"
-
-  [[params.intro.item]]
-    title = "Launch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Pin"
+    description = "Geintegreerd met kaartlezers van <a href='http://paqar.nl' targt='_blank'>Paqar</a> en <a href='http://sumup.nl/nappkin' target='_blank'>Sumup</a>"
     url = "#"
     button = "Why us?"
-    icon = "icon-rocket"
+    icon = "icon-credit-card"
     img = "img_10.jpg"
+
+  [[params.intro.item]]
+    title = "Reserveringen"
+    description = "Volledige reserveringsmodule met website widget, custom emails, sms reminders etc"
+    url = "#"
+    button = "Click Me"
+    icon = "icon-calendar"
+    img = "img_8.jpg"
 
   [params.intro.video]
     enable = false
@@ -166,24 +166,24 @@ theme = "hugo-elate-theme"
     description = "Nappkin is etc"
 
     [[params.services.item]]
-      title = "Saas"
-      description = "Nappkin is een Saas point-of-sale oplossing voor iPad of iPhone. Een abonnement met iPad kost €9 per maand."
-      icon = "icon-anchor"
+      title = "Rapportages"
+      description = "Via  de my.nappkin website heb je toegang tot btw- en omzetrapportages"
+      icon = "icon-globe"
+
+    [[params.services.item]]
+      title = "Email"
+      description = "Wekelijks of maandelijkse email met journaalpost en statistische gegevens"
+      icon = "icon-envelope"
+
+    [[params.services.item]]
+      title = "Data"
+      description = "Data op bestelregel niveau t downloaden"
+      icon = "icon-cloud-download"
 
     [[params.services.item]]
       title = "Kassa tellen"
       description = "Vastlegging kasopnames met van alles en nog wat n nog wat mer tekst voorde linebreak"
-      icon = "icon-layers2"
-
-    [[params.services.item]]
-      title = "Pin"
-      description = "Pinbetalingen kunnen tegen voordelige tarieven verwerkt worden met Paqar of Sumup"
-      icon = "icon-credit-card"
-
-      [[params.services.item]]
-      title = "Reserveringen"
-      description = "Nappkin bevat een volledige reserveringsmodule met webiste widget, sms reminders etc"      
-      icon = "icon-calendar"
+      icon = "icon-money"
 
   # About section
   [params.about]
@@ -192,15 +192,12 @@ theme = "hugo-elate-theme"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
     [[params.about.item]]
-      name = "Jean Smith"
+      name = "Website"
       position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person1.jpg"
+      description = "Op de my.nappkin website heb je toegang tot rekeningen, statistieken"
+      img = "website.png"
       alt = "Person1"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-linkedin", "#"]
       ]
 
     [[params.about.item]]
