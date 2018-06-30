@@ -15,11 +15,11 @@ theme = "hugo-elate-theme"
   # Navigation
   [params.navigation]
     brand = "Nappkin"
-    home = "Home"
+    home = ""
     work = "Koppelingen"
     testimonials = "Testimonials"
-    services = "Services"
-    about = "About"
+    services = "Kenmerken"
+    about = "Over"
     contact = "Contact"
 
     # You can add custom links before or after the default links
