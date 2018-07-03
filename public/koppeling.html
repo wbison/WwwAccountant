@@ -1,67 +1,81 @@
 <html>
 
 <head>
-
-    <body>
-        <section style="max-width: 600px; margin: 0 auto">
-            <h2>Koppeling boekhoudig met Nappkin</h2>
-            <p>
-                Het opzetten van de koppeling tussen de boekhouding en Nappkin moet gedaan worden op de my.nappkin website. Om toegang te
-                krijgen tot deze website heb je een uitnodiging nodig van de Nappkin klant.
-            </p>
-            <p> De koppeling omvat de volgende stappen:</p>
-            <ul>
-                <li>Verlenen van toegang tot de boekhouding aan Nappkin</li>
-                <li>Keuze van de juiste administratie</li>
-                <li>Vastlegging van de mapping van betaalmethodes en omzetgroepen in Nappkin enerzijds en grootboekrekeningen
-                    anderzijds</li>
-            </ul>
-            De eerste twee stappen moeten eenmalig worden uitgevoerd, in het onderdeel Boekhouding, Connectie.
-
-            <h3>Authorisatie</h3>
-            <p>
-                De eerste stap verschilt per boekhoudpakket. In de meeste gevallen moet je eenmalig inloggen op de vertrouwde website van
-                de boekhoudsoftware (zogenaamde OAuth). Bij sommige systemen zoals Yuki en Snelstart moet je een geheime
-                key overnemen van de boekhoudwebsite en die invoeren in my.nappkin.
-            </p>
-
-            <h3>Administratie</h3>
-            <p>Vervolgens moet je kiezen met welke adminstratie het Nappkin account is gekoppeld; in de meeste gevallen is er
-                maar 1 gekoppelde adminstratie.</p>
-
-            <h3>Mapping</h3>
-            <p>Tot slot de belangrijkste stap: de mapping van grootboekrekeningen, in het onderdeel Boekhouding, Configuratie.</p>
-
-            <h4>Betaalmethodes</h4>
-            We raden aan om voor alle betaalmethodes een speciale tussenrekening in de boekhouding te gebruiken. Dat is omdat het vaak niet
-            is toegestaan om rechtstreeks te boeken op een kas- of bankgrootboekrekening. Daarnaast is het op die manier makkelijker om
-            later een aansluiting te maken tussen bijvoorbeeld pin frekeningen en latere bankontvangsten.
-
-            <h4>Omzetgroepen</h4>
-            Per omzetgroep in Nappkin kan je een aparte grootboekrekening opgeven en wel per btw-tarief. Dat is nodig omdat het in beginsel
-            mogelijk is dat in een omzetgroep produkten met verschillende btw-tarieven zijn opgenomen.
-
-            <h4>Korting</h4>
-            In Nappkin zijn standaard twee kortingen voorgedefinieerd 'Personeel' en 'Representatie' maar een gebruiker kan zelf kortingen
-            toevoegen. De verleende korting kan in de boekhouding als kostenpost geboekt worden of in mindering op de omzet worden gebracht.
-
-            <h4>Kasopnames en -stortingen</h4>
-            Dit zijn kastransacties die zijn verwerkt in het (optionele) onderdeel Kasopmaak van Nappkin.
-
-            <h4>Uitgaven</h4>
-            Dit betreft kleine uitgaven die ten laste van de kas zijn gedaan.
-
-        </section>
-
-        <section style="max-width: 600px; margin: 0 auto">
-            <h2>Bijzonderheden</h2>
-                <h3>Exact</h3>
-                <p>De journaalpost wordt standaard via het dagboek Kasboek gedaan.</p>
-                
-                <h3>Snelstart</h3>
-                <p>De journaalpost wordt standaard via het dagboek Memoriaal gedaan. Het is niet mogelijk om rechtsstreeks op rekening Kas te boeken.</p>
-        </section>
-    </body>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/koppeling.css">
 </head>
+
+<body>
+    <section>
+        <h1>Koppeling boekhouding met Nappkin</h2>
+        <p>
+            Het opzetten van de koppeling tussen de boekhouding en Nappkin moet gedaan worden op <a href='https://my.nappkin.nl' target='_blank'>https://my.nappkin.nl</a> Om toegang te
+            krijgen tot deze website heb je een uitnodiging nodig van de Nappkin klant.
+        </p>
+        <p> De koppeling omvat de volgende stappen:</p>
+        <ul>
+            <li>Verlenen van toegang tot de boekhouding aan Nappkin</li>
+            <li>Keuze van de juiste administratie</li>
+            <li>Vastlegging van de mapping van betaalmethodes en omzetgroepen in Nappkin enerzijds en grootboekrekeningen anderzijds
+            </li>
+        </ul>
+        <p>
+            De eerste twee stappen moeten eenmalig worden uitgevoerd, in het onderdeel Boekhouding, Connectie.
+        </p>
+        <h2>Authorisatie</h2>
+        <p>
+            De eerste stap verschilt per boekhoudpakket. In de meeste gevallen moet je eenmalig inloggen op de vertrouwde website van
+            de boekhoudsoftware (zogenaamde OAuth). Bij sommige systemen zoals Yuki en Snelstart moet je een geheime key
+            overnemen van de boekhoudwebsite en die invoeren in my.nappkin.
+        </p>
+
+        <h2>Administratie</h2>
+        <p>Vervolgens moet je kiezen met welke adminstratie het Nappkin account is gekoppeld; in de meeste gevallen is er maar
+            één gekoppelde adminstratie die hoort bij de authorisatie uit de eerste stap.</p>
+
+        <h2>Mapping</h2>
+        <p>Tot slot de belangrijkste stap: de mapping van grootboekrekeningen, in het onderdeel Boekhouding, Configuratie.</p>
+
+        <h3>Betaalmethodes</h3>
+        <p>
+            We raden aan om voor alle betaalmethodes een speciale tussenrekening in de boekhouding te gebruiken. Dat is omdat het vaak
+            niet is toegestaan om rechtstreeks te boeken op een kas- of bankgrootboekrekening. Daarnaast is het op die manier
+            makkelijker om later een aansluiting te maken tussen bijvoorbeeld pin-afrekeningen en latere bankontvangsten.
+        </p>
+
+        <h3>Omzetgroepen</h3>
+        <p>Per omzetgroep in Nappkin kan je een aparte grootboekrekening opgeven en wel per btw-tarief. Dat is nodig omdat
+        het in beginsel mogelijk is dat in een omzetgroep produkten met verschillende btw-tarieven zijn opgenomen.
+        </p>
+        <p>Het is van belang om een grootboekrekening aan te wijzen als verstekrekening: die zal dan worden gebruikt als voor een nieuwe omzetgroep nog geen koppeling is vastgelegd.</p>
+
+        <h3>Korting</h3>
+        <p></p>In Nappkin zijn standaard twee kortingen voorgedefinieerd 'Personeel' en 'Representatie' maar een gebruiker kan
+        zelf kortingen toevoegen. De verleende korting kan in de boekhouding als kostenpost geboekt worden of in mindering
+        op de omzet worden gebracht.
+        </p>
+
+        <h3>Kasopnames en -stortingen</h3>
+        <p></p>Dit zijn kastransacties die zijn verwerkt in het (optionele) onderdeel Kasopmaak van Nappkin.
+        </p>
+
+        <h3>Uitgaven</h3>
+        <p>
+            Dit betreft kleine uitgaven die ten laste van de kas zijn gedaan.
+        </p>
+        <h2>Testboeking</h2>
+    </section>
+
+    <section>
+        <h2>Bijzonderheden</h2>
+        <h3>Exact</h3>
+        <p>De journaalpost wordt standaard via het dagboek Kasboek gedaan.</p>
+
+        <h3>Snelstart</h3>
+        <p>De journaalpost wordt standaard via het dagboek Memoriaal gedaan. Het is niet mogelijk om rechtsstreeks op rekening
+            Kas te boeken.</p>
+    </section>
+</body>
 
 </html>
