@@ -14,7 +14,7 @@ theme = "hugo-elate-theme"
   email = "info@nappkin.nl"
   # Navigation
   [params.navigation]
-    brand = "Nappkin"
+    brand = "<div style='display:flex; align-items: center'><img src='http://nappkin.nl/img/nappkin.png' style='display:inline-block;width:32px; height:32px;margin-right: 5px'>Nappkin</div>"
     home = ""
     work = "Koppelingen"
     testimonials = "Testimonials"
@@ -39,36 +39,36 @@ theme = "hugo-elate-theme"
   
   # Hero section
   [params.hero]
-    title = "Complete point-of -sale oplossing voor de horeca"
-    subtitle = 'Another free HTML5 bootstrap template by <a href="http://freehtml5.co/" target="_blank" title="Free HTML5 Bootstrap Templates">FREEHTML5.co</a> released under <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons 3.0</a><br> ported for Hugo by <a href="http://saey55.gitlab.io/pietercv" target="_blank">Pieter Saey</a>'
+    title = "Complete point-of-sale oplossing voor de horeca"
+    subtitle = ""
  
   # Intro section
   # Available icons: http://simplelineicons.com/
   [params.intro]
 
   [[params.intro.item]]
-    title = "Plan"
-    description = "Complete Saas point-of-sale oplossing voor iPad of iPhone, vanaf €9 per maand."
+    title = "iPad"
+    description = "Complete Saas point-of-sale oplossing voor iPad of iPhone, vanaf €9 per maand. Gratis proefabonnement van 1 maand."
     url = "#"
     button = ""
-    icon = "icon-bulb"
-    img = "img_7.jpg"
+    icon = "icon-screen-tablet"
+    img = ""
 
   [[params.intro.item]]
     title = "Pin"
-    description = "Geintegreerd met kaartlezers van <a href='http://paqar.nl' targt='_blank'>Paqar</a> en <a href='http://sumup.nl/nappkin' target='_blank'>Sumup</a>"
+    description = "Geintegreerd met kaartlezers van <a href='http://paqar.nl' targt='_blank'>Paqar</a> en <a href='http://sumup.nl/nappkin' target='_blank'>Sumup</a> tegen zeer aantrekkelijke transactietarieven. "
     url = "#"
-    button = "Why us?"
+    button = ""
     icon = "icon-credit-card"
-    img = "img_10.jpg"
+    img = ""
 
   [[params.intro.item]]
     title = "Reserveringen"
-    description = "Volledige reserveringsmodule met website widget, custom emails, sms reminders etc"
+    description = "Volledige reserveringsmodule met website widget, customized emails, sms reminders etc. Geen extra kosten."
     url = "#"
-    button = "Click Me"
+    button = ""
     icon = "icon-calendar"
-    img = "img_8.jpg"
+    img = ""
 
   [params.intro.video]
     enable = false
@@ -163,11 +163,11 @@ theme = "hugo-elate-theme"
   [params.services]
     enable = true
     title = "Kenmerken"
-    description = "Nappkin is etc"
+    description = "Nappkin is een modern en gebruiksvriendelijk kassasysteem. Lage investering door gebruik van standaard hardware."
 
     [[params.services.item]]
       title = "Rapportages"
-      description = "Via  de my.nappkin website heb je toegang tot btw- en omzetrapportages"
+      description = "Via de my.nappkin.nl website inzicht in btw, omzet, kasstaten, rekeningen etc"
       icon = "icon-globe"
 
     [[params.services.item]]
@@ -177,12 +177,12 @@ theme = "hugo-elate-theme"
 
     [[params.services.item]]
       title = "Data"
-      description = "Data op bestelregel niveau t downloaden"
+      description = "Data tot op bestelregel niveau te downloaden in csv formaat"
       icon = "icon-cloud-download"
 
     [[params.services.item]]
       title = "Kassa tellen"
-      description = "Vastlegging kasopnames met van alles en nog wat n nog wat mer tekst voorde linebreak"
+      description = "Vastlegging kasopnames, uploaden bonnetjes, rondsluiting soll/ist"
       icon = "icon-money"
 
   # About section
