@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "s3": "s3-deploy './public/**' --cwd './public/' --region eu-west-1 --bucket accountant.nappkin.nl",
-    "invalidate": "aws cloudfront create-invalidation --distribution-id E3W1DNJ4DWK5G8  --paths /index.html /koppeling.html /koppeling.css",
+    "invalidate": "aws cloudfront create-invalidation --distribution-id E3W1DNJ4DWK5G8  --paths /index.html /koppeling.html /css/koppeling.css",
     "deploy": "hugo && npm run s3 && npm run invalidate"
   },
   "repository": {
