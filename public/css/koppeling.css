@@ -11,3 +11,7 @@ h2 {
 h3 {
     margin-top: 50px;
 }
+
+img.company_logo {
+width: 100px; margin-top: 20px; margin-bottom: 5px
+}
